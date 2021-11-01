@@ -1,0 +1,19 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: mq_consumer
+  rabbitmq:
+    host: 47.99.170.248
+    port: 5672
+    username: admin
+    password: admin
+#    listener:
+#      simple:
+#        # 设置签收模式：AUTO(自动签收)、MANUAL(手工签收)、NONE(不签收，没有任何操作)
+#        acknowledge-mode: manual
+#        # 设置消费者数（线程数）
+#        concurrency: 5
+#        # 设置最大消费者数
+#        max-concurrency: 10
+
